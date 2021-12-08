@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "oswald";
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "courgette";
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+/*************** HEADER *****************/
+
+.navbar {
+    border: 1px solid white;
+}
+
+.nav span {
+    font-family: "courgette";
+}
+
+.image {
+    background-size: cover;
+    filter: brightness(50%);
+    }
+
+/**************** MAIN ******************/
+
+
+
+/*************** FOOTER *****************/

@@ -20,10 +20,13 @@
 
 .image {
     background-size: cover;
-    /* filter: brightness(50%); */
     }
 
 /**************** MAIN ******************/
+
+.form button{
+    width: 100%;
+}
 
 
 

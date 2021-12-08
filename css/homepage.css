@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "courgette";
+    src: url("../fonts/Courgette-Regular.ttf");
+}
+
 /*************** HEADER *****************/
 
 .image {
@@ -6,6 +16,22 @@
 
 /**************** MAIN ******************/
 
+main h2 {
+    font-family: "oswald";
+}
+.articles h3 {
+    font-family: "courgette";
+}
 
+.articles p {
+    font-family: "oswald";
+    color: grey;
+}
+
+.last-articles {
+    text-decoration: none;
+    font-family: "oswald";
+    color: grey;
+}
 
 /*************** FOOTER *****************/

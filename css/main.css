@@ -20,12 +20,16 @@
     background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
 }
 
-.header-container {
-    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
+.navbar-brand, .title-header {
+    font-family: "courgette";
 }
 
-.nav a {
-    font-family: "courgette" !important;
+.nav-link {
+    font-family: "oswald";
+}
+
+.header-container {
+    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
 }
 
 /**************** MAIN ******************/
@@ -34,7 +38,13 @@
     width: 100%;
 }
 
+.main-title {
+    font-family: "courgette";
+}
 
+.form-text {
+    font-family: "oswald";
+}
 
 /*************** FOOTER *****************/
 
@@ -45,4 +55,12 @@ footer {
 
 footer a {
     color: white;
+}
+
+.footer-title {
+    font-family: "courgette";
+}
+
+footer a {
+    font-family: "oswald";
 }

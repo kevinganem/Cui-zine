@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/homepage.css">
-    <link rel="stylesheet" href="./libs/bootstrap.css">
     <title>Cui'zine</title>
 </head>
 
@@ -19,35 +19,31 @@
 
         <div class="image" style="background-image:url(./img/header.jpg)">
         <!---------- NAVBAR ---------->
-            <nav class="navbar navbar-light">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1 text-white">Navbar</span>
-                </div>
-            </nav>
-            <!-- <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cui'zine</a>
+                <a class="navbar-brand text-white" href="#">Cui'zine</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link text-white" href="./html/team.html">Equipe</a>
+                    <a class="nav-link text-white" href="./html/post.html">Blog</a>
+                    <a class="nav-link text-white" href="./html/contact.html">Contact</a>
                     </div>
                 </div>
                 </div>
-            </nav> -->
+            </nav>
 
         <!------- HEADER CONTENT ------->
 
-            <div class="row header-container">
+            <div class="row header-container p-5">
                 <div class="text-center image-header">
-                    <img src="./img/logo_square_black.png" alt="logo">
+                    <img src="./img/logo_square_white.png" alt="logo">
                 </div>
-                <div class="text-center title-header">
+                <div class="text-center title-header pb-5 text-white">
                     <h1>Cui'zine</h1>
                     <h2>Le mag cuisine</h2>
                 </div>
@@ -59,7 +55,43 @@
     <!-------------- MAIN --------------->
 
     <main>
+        <h2 class="text-center p-5">Derniers articles</h2>
 
+    <!----------- ARTICLES ----------->
+
+        <div class="container row justify-content-center">
+            <img class="col col-lg-3 pb-5" src="./img/articles/suzette/suzette-small.jpg" alt="">
+            <div class="col col-lg-9">
+                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+                <p>
+                    La franchise "chez Suzette" qui fait un carton chez
+                    les bretons ouvre son premier restaurant à Paris dans
+                    le quartier latin.
+                    Antoine de Cui'zine a testé pour vous les saveurs sucrés, 
+                    salés au froment ou au sarrazin !
+                </p>
+            </div>
+            <img class="col col-lg-3 pb-5" src="./img/articles/metro/metro-small.jpg" alt="">
+            <div class="col col-lg-9">
+                <h3>Le Métro dessert</h3>
+                <p>
+                    Germain est ferrovipathe (ndlr: fan de train), son fils
+                    Maxime est pâtissier. ils ont décidé de réunir leurs deux
+                    passions dans un restaurant à la déco inspiré du métro parisien.
+                    A voir absolument, mais quand est-il d'y aller pour manger ?
+                    Clémentine entre en gare et nous donne son avis
+                </p>
+            </div>
+            <img class="col col-lg-3 pb-5" src="./img/articles/vitaly/vitaly-small.jpg" alt="">
+            <div class="col col-lg-9">
+                <h3>Vitaly, le vegan italien</h3>
+                <p>
+                    Quand on pense italien, on pense lasagne et jambon de Parme. 
+                    Ils l'ont fait, les saveurs d'Italie à portée des herbivores.
+                    Cette fois, c'est moi Tony qui vais le tester pour vous.
+                </p>
+            </div>
+        </div>
     </main>
 
     <!-------------- FOOTER --------------->

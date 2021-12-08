@@ -10,17 +10,23 @@
 
 /*************** HEADER *****************/
 
+.image {
+    background-position: center;
+    background-size: cover;
+}
+
 .navbar {
     border: 1px solid white;
+    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
+}
+
+.header-container {
+    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
 }
 
 .nav a {
     font-family: "courgette" !important;
 }
-
-.image {
-    background-size: cover;
-    }
 
 /**************** MAIN ******************/
 
@@ -31,3 +37,12 @@
 
 
 /*************** FOOTER *****************/
+
+footer {
+    background: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}

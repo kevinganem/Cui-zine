@@ -63,8 +63,9 @@ footer a {
     font-family: "courgette";
 }
 
-footer a {
+footer a, a:hover {
     font-family: "oswald";
+    color: white;
 }
 
 footer i {

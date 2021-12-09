@@ -39,6 +39,13 @@ main label {
     font-family: "courgette";
 }
 
+.initial::first-letter {
+    float:left;
+    line-height:0.5;
+    padding: 5px;
+    font-size: 60px;
+   }
+
 .autor-feedback{
     font-family: "oswald";
 }

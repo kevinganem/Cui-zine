@@ -16,5 +16,12 @@
 
 /**************** MAIN *****************/
 
+main h2 {
+    font-family: "courgette";
+}
+main p {
+    font-family: "oswald";
+    color: gray;
+}
 
 /*************** FOOTER ****************/

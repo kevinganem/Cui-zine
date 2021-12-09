@@ -14,7 +14,19 @@
     background-image: url("../img/team/team.jpg");
 }
 
+main img {
+    height: 250px;
+    min-height: 150px;
+    width: 250px;
+    min-width: 150px;
+}
+
+main p {
+    font-family: "oswald";
+    color: gray;
+}
 /**************** MAIN *****************/
+
 
 
 /*************** FOOTER ****************/

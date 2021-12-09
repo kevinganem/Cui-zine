@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "courgette";
+    src: url("../fonts/Courgette-Regular.ttf");
+}
+
+/*************** HEADER *****************/
+
+.image {
+    background-image: url("../img/recipes/paella/paella-header.jpg");
+}
+
+/**************** MAIN ******************/
+
+main h2, h4 {
+    font-family: "courgette";
+}
+
+main p {
+    color: gray;
+}
+
+main span {
+    font-family: "oswald";
+}
+
+.btn span, i {
+    color: black;
+}
+.ingredients span {
+    color: rgb(212, 212, 212);
+    font-size: medium;
+}
+
+/*************** FOOTER *****************/

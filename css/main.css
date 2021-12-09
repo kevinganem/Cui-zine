@@ -16,6 +16,11 @@
     background-size: cover;
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
 .navbar {
     border: 1px solid white;
     background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
@@ -30,6 +35,7 @@
 }
 
 .header-container{
+    height: 400px;
     background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
 }
 

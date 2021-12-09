@@ -16,6 +16,33 @@
 
 /**************** MAIN *****************/
 
+.autor-img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+main h2 {
+    font-family: "courgette";
+}
+
+main p {
+    font-family: "oswald";
+    color: gray;
+}
+
+main label {
+    font-family: "courgette";
+}
+
+.autor-feedback{
+    font-family: "oswald";
+}
+
+.autor {
+    border-top: solid 1px rgb(187, 187, 187);
+    border-bottom: solid 1px rgb(187, 187, 187);
+}
 
 /*************** FOOTER ****************/
 

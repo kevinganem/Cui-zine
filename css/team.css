@@ -17,4 +17,18 @@
 /**************** MAIN *****************/
 
 
+main img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+main h3 {
+    font-family: "courgette";
+}
+
+main p {
+    font-family: "oswald";
+    color: gray;
+}
+
 /*************** FOOTER ****************/

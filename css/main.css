@@ -29,9 +29,10 @@
     font-family: "oswald";
 }
 
-.header-container {
-    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45))
+.header-container{
+    background:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
 }
+
 
 /**************** MAIN ******************/
 

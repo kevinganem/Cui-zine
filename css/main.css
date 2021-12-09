@@ -8,6 +8,7 @@
     src: url("../fonts/Courgette-Regular.ttf");
 }
 
+
 /*************** HEADER *****************/
 
 .image {
@@ -63,4 +64,8 @@ footer a {
 
 footer a {
     font-family: "oswald";
+}
+
+footer i {
+    color: white;
 }
